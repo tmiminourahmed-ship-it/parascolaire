@@ -1,0 +1,44 @@
+Organisation des fichiers
+mon-site/
+│
+├── index.html
+└── images/
+├── ordinateur.jpg
+├── nature.jpg
+└── programmation.jpg
+code source :
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<title>Mes images préférées</title>
+</head>
+<body> <!-- 1. Titre principal -->
+<h1>Mes images préférées</h1> <!-- 2, 3 et 4. Image locale avec alt et largeur -->
+<h2>Mon ordinateur</h2> <img src="images/ordinateur.jpg" alt="Un ordinateur
+portable" width="300">
+<hr> <!-- 5. Transformer une image en lien -->
+<h2>Image avec un lien vers Google</h2> <a href="https://www.google.com"
+target="_blank"> <img
+src="images/ordinateur.jpg" alt="Ordinateur permettant d'accéder à Google"
+width="300"> </a>
+<p> Cliquez sur l'image pour visiter Google. </p>
+<hr> <!-- 6. Image avec une légende -->
+<h2>Image avec une légende</h2>
+<figure> <img src="images/ordinateur.jpg" alt="Un ordinateur portable" width="300">
+<figcaption> Un ordinateur utilisé pour programmer. </figcaption>
+</figure>
+<hr> <!-- DÉFI : Galerie de trois images -->
+<h2>Ma galerie d'images</h2> <!-- Première image -->
+<figure> <img src="images/ordinateur.jpg" alt="Un ordinateur portable" width="300">
+<figcaption> Un ordinateur pour développer des sites Web. </figcaption>
+</figure> <!-- Deuxième image -->
+<figure> <img src="images/nature.jpg" alt="Un paysage naturel" width="300">
+<figcaption> Un magnifique paysage naturel. </figcaption>
+</figure> <!-- Troisième image -->
+<figure> <img src="images/programmation.jpg" alt="Du code informatique sur un
+écran" width="300">
+<figcaption> La programmation informatique. </figcaption>
+</figure>
+</body>
+</html>
