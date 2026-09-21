@@ -1,0 +1,73 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Mes liens préférés</title>
+</head>
+
+<body>
+
+    <!-- Menu de navigation -->
+    <nav>
+        <a href="#accueil">Accueil</a> |
+        <a href="#presentation">Présentation</a> |
+        <a href="#projets">Projets</a> |
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- Accueil -->
+    <h1 id="accueil">Mes liens préférés</h1>
+
+    <p>
+        Bienvenue sur ma page Web !
+    </p>
+
+    <!-- Liens externes -->
+    <h2>Mes sites préférés</h2>
+
+    <a href="https://www.google.com">
+        Google
+    </a>
+
+    <br>
+
+    <a href="https://www.youtube.com" target="_blank">
+        YouTube (nouvel onglet)
+    </a>
+
+    <br><br>
+
+    <!-- Présentation -->
+    <h2 id="presentation">À propos de moi</h2>
+
+    <p>
+        Je suis un élève passionné par l'informatique.
+    </p>
+
+    <!-- Projets -->
+    <h2 id="projets">Mes projets</h2>
+
+    <p>
+        Découvrez mes projets informatiques.
+    </p>
+
+    <!-- Contact -->
+    <h2 id="contact">Contact</h2>
+
+    <p>
+        <a href="contact.html">
+            Accéder à la page contact.html
+        </a>
+    </p>
+
+    <p>
+        <a href="mailto:exemple@gmail.com">
+            Envoyer un e-mail
+        </a>
+    </p>
+
+</body>
+
+</html>
