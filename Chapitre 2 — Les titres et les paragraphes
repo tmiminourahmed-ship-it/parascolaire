@@ -1,0 +1,91 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Ma présentation Web</title>
+</head>
+
+<body>
+
+    <!-- Titre principal -->
+    <h1>Bienvenue sur ma page Web</h1>
+
+    <!-- Présentation -->
+    <h2>À propos de moi</h2>
+
+    <p>
+        Bonjour ! Je m'appelle Ahmed.
+        Je suis étudiant et j'aime la programmation.
+        <br>
+        Mon objectif est de devenir développeur Web.
+    </p>
+
+    <hr>
+
+    <!-- Abréviation -->
+    <h2>Mon domaine</h2>
+
+    <p>
+        J'apprends le
+        <abbr title="HyperText Markup Language">HTML</abbr>
+        pour créer des pages Web.
+    </p>
+
+    <!-- Citation courte -->
+    <h2>Ma motivation</h2>
+
+    <p>
+        Je crois que
+        <q>La pratique mène à la réussite.</q>
+    </p>
+
+    <!-- Citation longue -->
+    <blockquote>
+        Chaque grand développeur a commencé
+        par une première ligne de code.
+    </blockquote>
+
+    <!-- Code informatique -->
+    <h2>Mon premier code</h2>
+
+    <p>
+        Pour créer un titre, j'utilise :
+        <code>&lt;h1&gt;</code>
+    </p>
+
+    <!-- Clavier -->
+    <p>
+        Pour enregistrer mon fichier,
+        j'utilise <kbd>Ctrl</kbd> + <kbd>S</kbd>.
+    </p>
+
+    <!-- Œuvre -->
+    <h2>Mon livre préféré</h2>
+
+    <p>
+        J'aime le livre <cite>Le Petit Prince</cite>.
+    </p>
+
+    <!-- Texte préformaté -->
+    <h2>Mon emploi du temps</h2>
+
+    <pre>
+Lundi       : HTML
+Mardi       : CSS
+Mercredi    : JavaScript
+    </pre>
+
+    <!-- Contact -->
+    <h2>Contact</h2>
+
+    <address>
+        Nom : Ahmed Nour Tmimi<br>
+        Email : ahmed@example.com<br>
+        Pays : Tunisie
+    </address>
+
+</body>
+
+</html>
