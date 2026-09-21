@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>La mise en forme du texte</title>
+</head>
+
+<body>
+
+    <h1>La mise en forme du texte</h1>
+
+    <p>
+        Voici un texte avec un mot en <strong>gras</strong>.
+    </p>
+
+    <p>
+        Voici un mot en <em>italique</em>.
+    </p>
+
+    <p>
+        Voici un texte <u>souligné</u>.
+    </p>
+
+    <p>
+        Voici un mot <mark>surligné</mark>.
+    </p>
+
+    <p>
+        Ancien prix : <del>50 DT</del>
+        <br>
+        Nouveau prix : <strong>35 DT</strong>
+    </p>
+
+    <p>
+        Puissance mathématique : 5<sup>2</sup>
+    </p>
+
+    <p>
+        Formule chimique : H<sub>2</sub>O
+    </p>
+
+</body>
+
+</html>
