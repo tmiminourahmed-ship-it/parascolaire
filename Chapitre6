@@ -1,0 +1,126 @@
+Organisation des fichiers
+mon-site/
+│
+├── index.html
+├── images/
+│   └── apercu.jpg
+├── videos/
+│   └── ma-video.mp4
+└── audio/
+    └── ma-musique.mp3
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Mes contenus multimédias</title>
+</head>
+
+<body>
+
+    <!-- Titre principal -->
+    <h1>Mes contenus multimédias</h1>
+
+    <!-- 1. Vidéo locale avec commandes -->
+    <h2>Ma vidéo</h2>
+
+    <p>
+        Voici une vidéo locale avec des commandes de lecture.
+    </p>
+
+    <video controls width="400">
+        <source src="videos/ma-video.mp4" type="video/mp4">
+        Votre navigateur ne supporte pas la vidéo.
+    </video>
+
+    <hr>
+
+    <!-- 2. Fichier audio local avec commandes -->
+    <h2>Mon audio</h2>
+
+    <p>
+        Écoutez mon fichier audio.
+    </p>
+
+    <audio controls>
+        <source src="audio/ma-musique.mp3" type="audio/mpeg">
+        Votre navigateur ne supporte pas l'audio.
+    </audio>
+
+    <hr>
+
+    <!-- 3. Vidéo YouTube intégrée -->
+    <h2>Vidéo YouTube</h2>
+
+    <p>
+        Voici une vidéo intégrée depuis YouTube.
+    </p>
+
+    <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/ID_VIDEO"
+        title="Vidéo YouTube"
+        allowfullscreen>
+    </iframe>
+
+    <hr>
+
+    <!-- DÉFI SUPPLÉMENTAIRE -->
+
+    <h1>Ma galerie multimédia</h1>
+
+    <!-- 4. Vidéo avec une image d'aperçu poster -->
+    <h2>Vidéo avec aperçu</h2>
+
+    <p>
+        Cette vidéo possède une image d'aperçu
+        avant sa lecture.
+    </p>
+
+    <video
+        controls
+        width="400"
+        poster="images/apercu.jpg">
+
+        <source src="videos/ma-video.mp4" type="video/mp4">
+
+        Votre navigateur ne supporte pas la vidéo.
+    </video>
+
+    <hr>
+
+    <!-- 5. Audio avec répétition loop -->
+    <h2>Audio en répétition</h2>
+
+    <p>
+        Cet audio se répète automatiquement
+        après sa lecture.
+    </p>
+
+    <audio controls loop>
+        <source src="audio/ma-musique.mp3" type="audio/mpeg">
+        Votre navigateur ne supporte pas l'audio.
+    </audio>
+
+    <hr>
+
+    <!-- 6. Vidéo YouTube intégrée -->
+    <h2>Ma vidéo éducative</h2>
+
+    <p>
+        Cette vidéo présente un contenu éducatif
+        sur le développement Web.
+    </p>
+
+    <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/ID_VIDEO"
+        title="Vidéo éducative"
+        allowfullscreen>
+    </iframe>
+
+</body>
+
+</html>
